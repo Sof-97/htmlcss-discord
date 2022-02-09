@@ -62,7 +62,9 @@ html{
     position: absolute;
 }
 
-
+.txt-center{
+    text-align: center;
+}
 
 
 .button{
@@ -71,7 +73,6 @@ html{
 }
 
 .container{
-    width: 40%;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -117,13 +118,31 @@ header div a{
 } 
 
 h1{
-    text-align: center;
     font-size: 4em;
+}
+
+.container.cto{
+    width: 40%;
 }
 
 .cto p{
     font-size: 1.3em;
     margin-top: 15px;
     margin-bottom: 15px;
-    text-align: center;
+}
+
+.container.cto div{
+    padding: 15px;
+}
+
+.mac{
+    right: 25px;
+}
+
+.browser{
+    left: 25px;
+}
+
+.info{
+    height: 70vh;
 }
