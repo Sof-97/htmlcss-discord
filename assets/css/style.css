@@ -42,8 +42,16 @@ html{
     background-color: #000;
 }
 
+.bg-cyan{
+    background-color: #8EA1E1FF;
+}
+
 .disp-iblock{
     display: inline-block;
+}
+
+.disp-block{
+    display: block; 
 }
 
 .p-20{
@@ -66,10 +74,18 @@ html{
     text-align: center;
 }
 
+.fl-left{
+    float: left;
+}
+
+.fl-right{
+    float: right;
+}
 
 .button{
     padding: 10px;
     border-radius: 20px;
+    font-size: 1.2em;
 }
 
 .container{
@@ -79,6 +95,17 @@ html{
     left: 50%;
 }
 
+.wdt-60{
+    width: 60%;
+}
+
+.vh-100{
+    height: 100vh;
+}
+
+.mg-zauto{
+    margin: 0  auto;
+}
 
 /* Selettori Specifici */
 
@@ -93,7 +120,6 @@ header{
 
 .head{
     padding: 10px 0;
-    margin: 0 auto;
     width: 70%;
     text-align: center;
 }
@@ -121,6 +147,15 @@ h1{
     font-size: 4em;
 }
 
+h2{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
 .container.cto{
     width: 40%;
 }
@@ -143,6 +178,53 @@ h1{
     left: 25px;
 }
 
-.info{
+.demo{
+    background-color: #fff;
     height: 70vh;
 }
+
+.container.foto{
+    width: 60%;
+}
+
+.info {
+    width: 40%;
+}
+
+.demo .container img{
+    width: 55%  ;
+}
+
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.last-call{
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+
+
+h3{
+    background-size: contain;
+    background-image: url(../img/stars.svg);
+    font-size: 1.3em;
+}
+
+.last-call a{
+    width: fit-content;
+}
+
+
+/* Footer */
+
+footer{
+    height: 70vh;
+    background-color: #23272AFF;
+}
+
