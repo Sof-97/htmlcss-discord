@@ -46,6 +46,10 @@ html{
     background-color: #8EA1E1FF;
 }
 
+.bg-beige{
+    background-color:  #f6f6f6;
+}
+
 .disp-iblock{
     display: inline-block;
 }
@@ -179,7 +183,6 @@ p{
 }
 
 .demo{
-    background-color: #fff;
     height: 70vh;
 }
 
@@ -207,7 +210,9 @@ p{
     transform: translate(-50%, 0);
 }
 
-
+.last-title{
+    padding-top: 50px;
+}
 
 
 h3{
@@ -226,5 +231,37 @@ h3{
 footer{
     height: 70vh;
     background-color: #23272AFF;
+}
+
+/* Prova onde */
+
+
+.wave-top{
+    width: 100%;
+    top: -135px;
+}
+
+.wave-bot{
+    width: 100%;
+    bottom: -135px;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.bg-white.demo{
+    height: 85vh;
+}
+
+/* Sezione Hover  */
+
+.button:hover{
+    background-color: #CCC;
+    color: #FFF;
+}
+
+nav li:hover{
+    border-radius: 20px;
+    background-color: #0c478b;
+    color: #fff;
 }
 
