@@ -1,0 +1,45 @@
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #3161E0;
+}
+
+.head{
+    width: 70%;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 1.3em;
+}
+
+nav{
+    padding-top: 0.5em;
+}
+
+.jumbo{
+    background-image: url(../../assets/img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0px;
+}
+
+.jumbo > div{
+    width: 40%;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.jumbo p{
+    font-size: 1.5em;
+}
+.jumbo .button{
+    font-size: 1.5em;
+}
