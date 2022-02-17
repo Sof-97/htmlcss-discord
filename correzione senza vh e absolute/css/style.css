@@ -21,6 +21,8 @@ nav{
     padding-top: 0.5em;
 }
 
+
+/* SECTION Jumbo */
 .jumbo{
     background-image: url(../../assets/img/jumbo.png);
     background-position: center;
@@ -42,4 +44,120 @@ h1{
 }
 .jumbo .button{
     font-size: 1.5em;
+}
+
+
+/* SECTION Contenuto */
+.row{
+    width: 65%;
+    padding: 200px 0px;
+}
+
+.row > div:first-child{
+    width: 50%;
+}
+
+.row > div:last-child{
+    width: 40%;
+}
+
+.row > div:last-child{
+    padding: 30px;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h2 + p{
+    font-size: 1.5em;
+}
+
+.row-big{
+    width: 65%;
+}
+
+.row-big img{
+     width: 100%;
+}
+
+.row-big > div:first-child{
+    width: 80%;
+}
+
+.row-big h4{
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    background-image: url(../../assets/img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lto{
+    width: 50%;
+    left: 25%;
+}
+
+/* SECTION Wave */
+
+.wave{
+    position: relative;
+    filter: invert(100%) sepia(71%) saturate(220%) hue-rotate(264deg) brightness(124%) contrast(93%);
+}
+
+.wave.up{
+    top: -120px;
+}
+
+.wave.down{
+    bottom: -120px;
+    transform: rotate(180deg);
+}
+
+/* SECTION Footer */
+footer > div{
+    width: 70%;
+}
+
+footer hr{
+    background-color: #8EA1E1;
+}
+
+.floor{
+    padding: 20px 0;
+}
+
+.reference{
+    padding: 50px;
+}
+
+.social{
+    padding: 20px;
+    width: 20%;
+}
+
+.site-map{
+    width: 60%;
+}
+
+.site-map div{
+    font-size: 1.5em;
+    margin-right: 10%;
+}
+
+footer h5,
+footer h3{
+    color: #8EA1E1;
+}
+
+footer h3{
+    font-size:  3em;
+}
+
+footer li{
+    color: #fff;
+}
+
+.social img{
+    scale: 0.5;
 }

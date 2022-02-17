@@ -18,11 +18,17 @@ a{
     text-decoration: none;
 }
 
+.p-rel{
+    position: relative;
+}
+
 .disp-iblock{
     display: inline-block;
 }
 
-
+.disp-block{
+    display: block;
+}
 
 .v-align-middle{
     vertical-align: middle;
@@ -61,6 +67,22 @@ a{
     color: #000;
 }
 
+.c-cyan{
+    color: #8EA1E1;
+}
+
+.bg-cyan{
+    background-color: #8EA1E1;
+}
+
+.bg-grey{
+    background-color: #F6F6F6;
+}
+
+.bg-lightblack{
+    background-color: #23272A;
+}
+
 /* Text */
 
 .txt-center{
@@ -68,6 +90,14 @@ a{
 }
 
 /* Padding e Margin */
+
+.ptop-30{
+    padding-top: 30px;
+}
+
+.pbot-30{
+    padding-bottom: 30px;
+}
 
 .ptop-50{
     padding-top: 50px;
@@ -83,4 +113,9 @@ a{
 
 .mright-10{
     margin-right: 10px;
+}
+
+.mtopbot-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
